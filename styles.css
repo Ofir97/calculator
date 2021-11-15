@@ -1,18 +1,21 @@
 body {
-    background-color: beige;
+    background: url('images/header.jpg');
+    background-size: cover;
+    background: url(images/background.jpg);
     color: rgb(66, 66, 194);
     font-family: 'Comfortaa';
 }
 
 h1 {
     margin-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     color: rgb(53, 103, 122);
-    background: url('images/header.jpg');
     height: 12vh;
     line-height: 12vh;
+    width: 70vw;
+    margin: auto;
 }
 
 #calculator-container {
@@ -23,7 +26,7 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 55px;
     margin-right: 0px;
 }
 
@@ -36,18 +39,20 @@ h1 {
     color: rgb(20, 54, 88);
     border: 1px solid rgb(20, 54, 88);
     background-color: beige;
-    padding: 4px;
+    padding: 8px;
     border-radius: 3px;
+    width: 40%;
+    font-size: larger;
 }
 
 #calculate-btn {
     margin-top: 30px;
     margin-bottom: 25px;
-    width: 150px;
-    padding: 8px;
+    width: 200px;
+    padding: 12px;
     color: white;
     background-color: rgb(99, 99, 141);
-    font-size: large;
+    font-size: larger;
     border: none;
     border-radius: 3px;
     letter-spacing: 1.5px;
@@ -62,11 +67,12 @@ h1 {
     background-color: skyblue;
     display: flex;
     justify-content: center;
-    width: 50vw;
+    width: 40vw;
     height: 45vh;
     margin: auto;
     border-radius: 8px;
     box-shadow: 5px 10px 8px #a3adb9;
+    margin-top: 15px;
 }
 
 img {
@@ -84,18 +90,19 @@ img {
     background-color: #74c886;
     color: rgb(20, 54, 88);
     margin-top: -5px;
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 3px;
 }
 
 #result-container > #clear-btn {
     position: relative;
     bottom: 2px;
-    padding: 5px 10px;
+    padding: 6px 10px;
     visibility: hidden;
     background: none;
     color: rgb(66, 66, 194);
     border: 2px solid rgb(66, 66, 194);
+    font-size: 18px;
 }
 
 #result-container > #clear-btn:hover {
@@ -104,16 +111,16 @@ img {
 }
 
 #calculator-container> .input-warn {
-    border: 2px solid rgb(121, 7, 7);
+    border: 3px solid rgb(168, 26, 26);
 }
 
 #operations {
     background-color: beige;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 label[for='operations'] {
-    font-size: 19px;
+    font-size: 22px;
 }
 
 #operation-div {
