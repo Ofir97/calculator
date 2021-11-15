@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div id="main-container">
+        <div id="calculator-container">
+            <input type="text" id="number1" class="number-input" placeholder="first number">
+            <input type="text" id="number2" class="number-input" placeholder="second number">
+            <div id="operation-div">
+                <label for="operations">Choose an operation: </label>
+                <select name="operations" id="operations">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </div>
+            <button id="calculate-btn" onclick="sendInput()">calculate</button>
+            
+            <div id='result-container'>
+                <p id="resultP"></p>
+                <button id="clear-btn" onclick="clearResult()">clear result</button>
+            </div>
+        </div>
+
+        <img src="images/calculator.png">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
